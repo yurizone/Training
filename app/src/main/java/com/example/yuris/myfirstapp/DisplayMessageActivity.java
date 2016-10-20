@@ -18,7 +18,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
-        //comment 4
+        //comment 5
         ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
         layout.addView(textView);
     }
